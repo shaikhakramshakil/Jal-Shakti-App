@@ -79,5 +79,12 @@ To run this project locally, follow these steps:
 - `src/ai/flows/`: This directory houses the Genkit AI flows, such as the OCR flow for extracting data from lab reports.
 - `src/lib/`: Contains utility functions, sample data, and other shared resources.
 - `public/`: For static assets like images and fonts.
-
-This project was bootstrapped with [Firebase Studio](https://firebase.google.com/docs/studio).
+  
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 15px;">
+  <img src="https://github.com/user-attachments/assets/6f5a1299-34f9-4481-951c-234495dce50d" alt="Home-screen" width="150" />
+  <img src="https://github.com/user-attachments/assets/eb776efd-4a95-4662-a34e-cac6cb60f4a6" alt="Input-data-screen" width="150" />
+  <img src="https://github.com/user-attachments/assets/33f88e99-25f6-40b4-b0ed-7aea8fb413a7" alt="Results screen" width="150" />
+  <img src="https://github.com/user-attachments/assets/0766b58d-5322-43a2-8719-9529ab170577" alt="Report-Generation Screen" width="150" />
+  <img src="https://github.com/user-attachments/assets/5eca85b6-f707-4ab3-9597-c1382d784554" alt="Alert Screen" width="150" />
+  <img src="https://github.com/user-attachments/assets/2488025c-6946-4671-a4c1-6a4a0ed15d8f" alt="History-Screen" width="140" />
+</div>
