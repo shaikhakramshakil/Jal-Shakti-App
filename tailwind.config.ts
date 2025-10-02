@@ -1,3 +1,4 @@
+
 import type {Config} from 'tailwindcss';
 
 export default {
@@ -10,9 +11,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Inter', 'sans-serif'],
-        headline: ['Inter', 'sans-serif'],
+        body: ['PT Sans', 'sans-serif'],
+        headline: ['PT Sans', 'sans-serif'],
         code: ['monospace'],
+        display: ["Inter", "sans-serif"],
       },
       colors: {
         background: 'hsl(var(--background))',
@@ -28,6 +30,7 @@ export default {
         primary: {
           DEFAULT: 'hsl(var(--primary))',
           foreground: 'hsl(var(--primary-foreground))',
+          dark: 'hsl(204, 90%, 54%)'
         },
         secondary: {
           DEFAULT: 'hsl(var(--secondary))',
@@ -65,11 +68,21 @@ export default {
           border: 'hsl(var(--sidebar-border))',
           ring: 'hsl(var(--sidebar-ring))',
         },
+        surface: {
+          light: '#ffffff',
+          dark: '#1e293b',
+        },
       },
       borderRadius: {
-        lg: 'var(--radius)',
-        md: 'calc(var(--radius) - 2px)',
+        DEFAULT: '0.75rem',
+        lg: '1rem',
+        xl: '1.5rem',
         sm: 'calc(var(--radius) - 4px)',
+      },
+      boxShadow: {
+        'soft': '0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05)',
+        'lifted': '0 10px 15px -3px rgb(0 0 0 / 0.07), 0 4px 6px -4px rgb(0 0 0 / 0.07)',
+        'glow': '0 0 20px -5px hsl(var(--primary))'
       },
       keyframes: {
         'accordion-down': {
@@ -88,10 +101,39 @@ export default {
             height: '0',
           },
         },
+        fadeIn: {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(10px)'
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)'
+          },
+        },
+        pillExpand: {
+          '0%': {
+            width: '4rem'
+          },
+          '100%': {
+            width: '100%'
+          }
+        },
+        pinPulse: {
+          '0%, 100%': {
+            transform: 'scale(1)'
+          },
+          '50%': {
+            transform: 'scale(1.1)'
+          }
+        }
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+        fadeIn: 'fadeIn 0.5s ease-out forwards',
+        pillExpand: 'pillExpand 0.3s ease-in-out forwards',
+        pinPulse: 'pinPulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       },
     },
   },

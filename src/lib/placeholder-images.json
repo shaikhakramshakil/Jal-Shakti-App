@@ -1,3 +1,22 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "mumbai-map",
+      "description": "A mock pollution map of Mumbai.",
+      "imageUrl": "https://images.unsplash.com/photo-1717700299703-8b57370eb947?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx1c2UlMjBwb2xsdXRpb24lMjBtYXAlMjBpbnN0YWVkJTIwb2YlMjB0aGlzJTIwaWFtZ2V8ZW58MHx8fHwxNzU5MTgwNzg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pollution map"
+    },
+    {
+      "id": "delhi-map",
+      "description": "An interactive map view centered on Delhi.",
+      "imageUrl": "https://images.unsplash.com/photo-1614242199994-ee17a3d05ac1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyZWQlMjBzcG90cyUyMG9uJTIwbWFwfGVufDB8fHx8MTc2MDM3ODcwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract map"
+    },
+    {
+      "id": "stylized-map",
+      "description": "A stylized abstract pollution map.",
+      "imageUrl": "https://images.unsplash.com/photo-1614242199994-ee17a3d05ac1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyZWQlMjBzcG90cyUyMG9uJTIwbWFwfGVufDB8fHx8MTc2MDM3ODcwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract map"
+    }
+  ]
 }

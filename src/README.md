@@ -2,19 +2,31 @@
 
 Jal Shakti is a web application designed to streamline the process of calculating the Heavy Metal Pollution Index (HMPI) for groundwater quality assessment. It provides environmental professionals, researchers, and students with a user-friendly tool to automate complex calculations, visualize data, and generate reports.
 
+This project is developed in response to the problem statement (ID: 25067) from the **Ministry of Jal Shakti**, **Central Ground Water Board (CGWB)**, to design and develop an application for Heavy Metal Pollution indices.
+
 ![Jal Shakti Screenshot](https://storage.googleapis.com/aida-images/studio-readme-aquacheck.png)
+
+## The Challenge: Heavy Metal Pollution in Groundwater
+
+The presence of heavy metals in drinking water, even at trace levels, poses significant health risks, making accurate and timely assessment critical for public safety and environmental monitoring. Although several indices exist for assessing heavy metal pollution, their manual computation is tedious, time-consuming, inconsistent, and vulnerable to human error due to the complexity and variability of formulas.
+
+## Our Solution: Jal Shakti
+
+Jal Shakti is an automated, user-friendly application that can compute Heavy Metal Pollution Indices (HMPI) in groundwater using standard formulas with minimal manual intervention. This tool streamlines calculations, reduces errors, and provides reliable outputs for scientists, researchers, and policymakers.
 
 ## Key Features
 
-- **Manual & Automated Data Input**: Users can either manually input heavy metal concentration values or upload a lab report image.
-- **AI-Powered OCR**: The application uses a Genkit AI flow with OCR capabilities to automatically extract heavy metal data from uploaded lab reports, saving time and reducing manual errors.
-- **Geolocation**: Automatically fetches the user's current geographical coordinates (Latitude and Longitude) for accurate location tagging of water samples.
-- **HMPI Calculation**: Instantly calculates the Heavy Metal Pollution Index based on the provided data.
-- **Water Quality Analysis**: Displays the final HMPI score and categorizes the water quality into levels such as 'Low', 'Medium', 'High', and 'Very High'.
+- **Automated HMPI Calculation**: Instantly computes heavy metal pollution indices using standard methodologies, reducing manual effort and error-prone processes.
+- **AI-Powered OCR**: Uses a Genkit AI flow with OCR to automatically extract heavy metal data from uploaded lab reports, saving time and reducing manual errors.
+- **Data Integration with Geolocation**: Supports manual data input and automatically fetches the user's current geographical coordinates (Latitude and Longitude) for accurate location tagging of water samples.
+- **Groundwater Quality Categorization**: Classifies groundwater quality into clear levels—'Low', 'Medium', 'High', and 'Very High'—based on the calculated HMPI values.
 - **Data Visualization**: Includes charts to visualize HMPI trends over time, helping users understand pollution patterns.
-- **Report Generation**: Users can generate and export assessment reports in PDF or CSV format.
+- **Report Generation**: Allows users to generate and export assessment reports in PDF or CSV format.
 - **History Tracking**: Keeps a record of past assessments for historical analysis and comparison.
-- **Customizable Settings**: Allows users to configure units of measurement and switch between light and dark themes.
+
+## Impact
+
+The application provides accessible and reliable insights into groundwater heavy metal contamination, enabling better decision-making, enhanced environmental monitoring, and improved public health protection.
 
 ## Technical Approach (Revised)
 
