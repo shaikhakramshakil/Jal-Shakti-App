@@ -2,7 +2,6 @@
 
 Jal Shakti is a web application designed to streamline the process of calculating the Heavy Metal Pollution Index (HMPI) for groundwater quality assessment. It provides environmental professionals, researchers, and students with a user-friendly tool to automate complex calculations, visualize data, and generate reports.
 
-![Jal Shakti Screenshot](https://storage.googleapis.com/aida-images/studio-readme-aquacheck.png)
 
 ## Key Features
 
