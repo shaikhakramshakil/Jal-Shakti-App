@@ -1,9 +1,9 @@
 # Jal Shakti: Groundwater Quality Calculator
 
 Jal Shakti is a web application designed to streamline the process of calculating the Heavy Metal Pollution Index (HMPI) for groundwater quality assessment. It provides environmental professionals, researchers, and students with a user-friendly tool to automate complex calculations, visualize data, and generate reports.
-
-<img width="256" height="256" alt="download (2)" src="https://github.com/user-attachments/assets/017ae20d-8ef4-4e4a-b772-8991689130ce" />
-
+<div align="center">
+  <img width="500" height="500" alt="icon png-removebg-preview" src="https://github.com/user-attachments/assets/3b09843c-e445-4193-9d1e-9433173864b1" />
+</div>
 ## Key Features
 
 - **Manual & Automated Data Input**: Users can either manually input heavy metal concentration values or upload a lab report image.
@@ -32,8 +32,11 @@ Jal Shakti is a web application designed to streamline the process of calculatin
     *   **Our Use**: To build a rich, interactive map for visualizing pollution data and identifying contamination hotspots.
 
 ### Methodology and process for implementation
+<div align = "center">
+<img width="1659" height="455" alt="diagram-export-10-2-2025-10_09_01-PM" src="https://github.com/user-attachments/assets/0f504f95-355c-4d97-b9db-c509d23241a6" />
+</div>
 
-(This should be represented as a visual flowchart in your actual PPT. The text below describes the flow.)
+
 
 1.  **User Interaction**: The user accesses the web application hosted on Firebase Hosting.
 2.  **Authentication**: The user securely logs in or signs up using Firebase Authentication.
