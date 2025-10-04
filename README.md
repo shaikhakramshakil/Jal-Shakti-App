@@ -206,6 +206,7 @@ npm run genkit:dev
 | `npm run dev` | Start development server | 🏃‍♂️ |
 | `npm run build` | Build for production | 🏗️ |
 | `npm run start` | Start production server | 🚀 |
+
 | `npm run genkit:dev` | Start AI flows UI | 🤖 |
 | `npm run lint` | Code linting | 🔍 |
 
@@ -263,7 +264,7 @@ npm run genkit:dev
       <strong>📊 Data Input</strong>
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/33f88e99-25f6-40b4-b0ed-7aea8fb413a7" alt="Results Screen" width="200"/>
+      <img src="https://github.com/user-attachments/assets/421dc054-1457-4380-b2da-94d1b7922009" alt="Results Screen" width="170"/>
       <br/>
       <strong>📈 Results Analysis</strong>
     </td>
